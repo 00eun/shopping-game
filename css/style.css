@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(67, 67, 73);
+}
+
+.header {
+  height: 80px;
+  background: url(../img/logo.png) no-repeat center;
+  background-size: auto 70px;
+}
+
+.gnb {
+}
+.gnb ul {
+  display: flex;
+  justify-content: center;
+}
+.gnb ul li {
+  padding: 10px;
+  margin: 0 5px;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.gnb ul li:nth-child(1),
+.gnb ul li:nth-child(2),
+.gnb ul li:nth-child(3) {
+  width: 40px;
+  height: auto;
+  background-image: url(../img/blue_t.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 35px;
+}
+
+.gnb ul li:nth-child(1) {
+  background-image: url(../img/blue_t.png);
+}
+.gnb ul li:nth-child(2) {
+  background-image: url(../img/blue_p.png);
+}
+.gnb ul li:nth-child(3) {
+  background-image: url(../img/blue_s.png);
+}
+
+.gnb ul li:nth-child(4) {
+  background-color: rgb(41, 148, 248);
+}
+.gnb ul li:nth-child(5) {
+  background-color: rgb(255, 198, 43);
+}
+.gnb ul li:nth-child(6) {
+  background-color: rgb(253, 105, 253);
+}
