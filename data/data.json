@@ -48,13 +48,14 @@
       "size": "samil",
       "color": "yellow",
       "image": "../img/yellow_t.png"
-    },{
+    },
+    {
       "type": "pants",
       "gender": "male",
       "size": "large",
       "color": "yellow",
       "image": "../img/yellow_p.png"
-    }
+    },
     {
       "type": "skirt",
       "gender": "female",
