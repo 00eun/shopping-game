@@ -10,19 +10,24 @@
     <script src="src/main.js" defer></script>
   </head>
   <body>
-    <div class="wrap">
-      <header class="header"></header>
-      <section class="gnb">
-        <ul>
-          <li class="t-shirt"></li>
-          <li class="pants"></li>
-          <li class="skirt"></li>
-          <li class="blue colorBtn">Blue</li>
-          <li class="yellow colorBtn">Yellow</li>
-          <li class="pink colorBtn">Pink</li>
-        </ul>
-      </section>
-      <section class="list"></section>
+    <!-- Logo -->
+    <img src="img/logo.png" alt="Logo" class="logo">
+    <!-- Buttons -->
+    <div class="buttons">
+      <button class="btn"><img src="img/blue_t.png" alt="tshirt" class="imgBtn"></button>
+      <button class="btn"><img src="img/blue_p.png" alt="pants" class="imgBtn"></button>
+      <button class="btn"><img src="img/blue_s.png" alt="skirt" class="imgBtn"></button>
+      <button class="btn colorBtn blue">blue</button>
+      <button class="btn colorBtn yellow">Yellow</button>
+      <button class="btn colorBtn pink">Pink</button>
+    </div>    
+    <!-- Items-->
+    <ul class="items">
+      <li class="item">
+        <img src="img/blue_t.png" alt="tshirt" class="item__thumbnail">
+        <span class="item__description">male, large</span>
+      </li>
+    </ul>
     </div>
   </body>
 </html>
