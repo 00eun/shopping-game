@@ -2,7 +2,7 @@
 
 ## 간단한 쇼핑몰 미니게임 만들기
 
-**HTML, CSS, Vanila JS** 
+**HTML, CSS, Vanila JS, JSON** 
 
 **21.07.04 ~ 21.07.05**
 
